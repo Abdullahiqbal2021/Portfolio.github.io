@@ -136,19 +136,21 @@ footer{
 
 @media (max-width:850px) {
   .left-section {
-    width: 0px;
+    width: 9%;
     background-color: gray;
     padding: 20px;
-    min-height: calc(100vh - 70px);
+    /* min-height: calc(100vh - 70px); */
+    min-height: 100vh;
     z-index: 5;
   }
   .right-section,
   .right-section-2{
-    width: 100% ;
+    width: 90.4% ;
   }
 
   nav {
     display: none;
+    min-height: calc(100vh - 70px);
   }
 
   #nav-slide-out {
@@ -159,5 +161,8 @@ footer{
   }
   .home-nav li:hover::before {
     right: -10px;
+  }
+  .fa-circle{
+    display: none;
   }
 }
