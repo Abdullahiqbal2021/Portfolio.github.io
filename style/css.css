@@ -136,7 +136,7 @@ footer{
 
 @media (max-width:850px) {
   .left-section {
-    width: 9%;
+    width: 9vw;
     background-color: gray;
     padding: 20px;
     /* min-height: calc(100vh - 70px); */
@@ -145,7 +145,10 @@ footer{
   }
   .right-section,
   .right-section-2{
-    width: 91% ;
+    width: 91vw ;
+  }
+  .right-section-2{
+    overflow: hidden;
   }
 
   nav {
@@ -164,5 +167,11 @@ footer{
   }
   .fa-circle{
     display: none;
+  }
+  footer h5{
+    font-size: 15px;
+  }
+  footer b{
+    font-size: 11px;
   }
 }
