@@ -4,18 +4,6 @@ let homeNav = document.getElementById("home-nav")
 let leftSection = document.getElementsByClassName("left-section")[0];
 
 
-// const windowResize = () => {
-//   console.log(window.innerWidth);
-//   if (window.innerWidth > 850) {
-//     navOut.style.display = "none"
-//     navIn.style.display = "none"
-//     leftSection.style.position = "relative"
-//     homeNav.style.display = "flex";
-//     leftSection.style.width = ""
-//     console.log("sixing");
-//   }
-// }
-
 navOut.addEventListener("click", () => {
   leftSection.style.width = "300px"
   setTimeout(() => {
